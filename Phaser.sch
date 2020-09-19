@@ -1611,9 +1611,6 @@ Wire Wire Line
 	9050 7150 9050 7250
 Wire Wire Line
 	9050 7550 9050 7700
-Wire Wire Line
-	9050 7700 9550 7700
-Connection ~ 9550 7700
 $Comp
 L Device:R R29
 U 1 1 5FB3AC96
@@ -1644,7 +1641,6 @@ Wire Wire Line
 	8550 7550 8550 7700
 Wire Wire Line
 	8550 7700 9050 7700
-Connection ~ 9050 7700
 $Comp
 L Device:R R27
 U 1 1 5FB77010
@@ -1873,9 +1869,7 @@ F 3 "~" H 4250 9650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4850 9400 4850 8800
-Wire Wire Line
-	4850 8800 5000 8800
+	4850 9400 4850 8850
 NoConn ~ 4150 9850
 $Comp
 L Device:CP C9
@@ -2726,33 +2720,19 @@ Wire Wire Line
 $Comp
 L Switch:SW_SPDT SW5
 U 1 1 5FB9D562
-P 4200 8600
-F 0 "SW5" H 4050 8700 50  0000 L CNN
-F 1 "Antiphase" H 4000 8400 50  0000 L CNN
-F 2 "MyLibrary:SWITCH_SPDT_PTH_12.9X6.9MM" H 4200 8600 50  0001 C CNN
-F 3 "~" H 4200 8600 50  0001 C CNN
-	1    4200 8600
-	0    -1   -1   0   
+P 4200 8500
+F 0 "SW5" H 4050 8600 50  0000 L CNN
+F 1 "Antiphase" H 4000 8300 50  0000 L CNN
+F 2 "MyLibrary:SWITCH_SPDT_PTH_12.9X6.9MM" H 4200 8500 50  0001 C CNN
+F 3 "~" H 4200 8500 50  0001 C CNN
+	1    4200 8500
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4100 8400 3450 8400
-Wire Wire Line
-	3450 8400 3450 9050
 Wire Wire Line
 	6050 7800 6050 8500
 Wire Wire Line
 	6050 8500 5950 8500
 Connection ~ 5950 8500
-Wire Wire Line
-	4300 8400 4300 7800
-Wire Wire Line
-	4300 7800 6050 7800
-Wire Wire Line
-	4200 8800 4200 8900
-Wire Wire Line
-	4200 8900 4800 8900
-Wire Wire Line
-	4800 8900 4800 7550
 Wire Wire Line
 	6600 8400 6600 8000
 Connection ~ 6600 8000
@@ -2760,12 +2740,6 @@ Wire Wire Line
 	6600 8000 6800 8000
 Wire Wire Line
 	6400 8000 6600 8000
-Wire Wire Line
-	6500 8600 6500 7550
-Wire Wire Line
-	6500 8600 6650 8600
-Wire Wire Line
-	4800 7550 6500 7550
 $Comp
 L Connector_Generic:Conn_01x01 J34
 U 1 1 5FDB5C74
@@ -3058,11 +3032,6 @@ F 3 "~" H 5400 9100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5000 8800 5000 8900
-Connection ~ 5000 8800
-Wire Wire Line
-	5000 8800 5000 8750
-Wire Wire Line
 	5000 8750 7450 8750
 Wire Wire Line
 	5200 8900 5200 8600
@@ -3079,4 +3048,31 @@ Wire Wire Line
 	5400 8900 5400 8800
 Wire Wire Line
 	5400 8800 6650 8800
+Wire Wire Line
+	5000 8850 4850 8850
+Connection ~ 5000 8850
+Wire Wire Line
+	5000 8850 5000 8900
+Wire Wire Line
+	5000 8750 5000 8850
+Wire Wire Line
+	6350 8600 6650 8600
+Wire Wire Line
+	4200 8300 4200 8150
+Wire Wire Line
+	4200 8150 6350 8150
+Wire Wire Line
+	6350 8150 6350 8600
+Wire Wire Line
+	4300 8700 4300 9050
+Wire Wire Line
+	4300 9050 3450 9050
+Wire Wire Line
+	4100 8700 4100 8800
+Wire Wire Line
+	4100 8800 3700 8800
+Wire Wire Line
+	3700 8800 3700 7800
+Wire Wire Line
+	3700 7800 6050 7800
 $EndSCHEMATC
