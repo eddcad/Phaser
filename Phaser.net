@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/eddnix/Documents/Kicad/Projects/Phaser/Phaser.sch)
-    (date "Sat 19 Sep 2020 22:41:00 BST")
+    (date "Sun 20 Sep 2020 16:26:05 BST")
     (tool "Eeschema 5.1.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -345,7 +345,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5F8F4E2F))
     (comp (ref R42)
-      (value 33r)
+      (value 330r)
       (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal)
       (datasheet ~)
       (libsource (lib Device) (part R) (description Resistor))
