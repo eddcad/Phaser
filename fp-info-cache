@@ -1,4 +1,4 @@
-21068672761058832
+21073475399072592
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -62377,6 +62377,13 @@ CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor
 2
 2
 MyLibrary
+CP_Radial_D5.0mm_PWideForPower
+CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor
+0
+2
+2
+MyLibrary
 CP_Radial_D6.3mm_P2.50mm
 CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor
 CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor
@@ -62545,6 +62552,13 @@ Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W len
 2
 2
 MyLibrary
+R_LDR_5.2x5.2mm_P3.5mm_Horizontal
+Resistor, LDR 5.2x5.2, upright, see http://cdn-reichelt.de/documents/datenblatt/A500/M996011A.pdf
+Resistor LDR5.2x5.2 
+0
+2
+2
+MyLibrary
 SWITCH_SPDT_PTH_12.9X6.9MM
 SPDT PTH SLIDE SWITCH
 SPDT PTH SLIDE SWITCH
@@ -62572,6 +62586,13 @@ connector wire 0.25sqmm
 0
 9
 9
+MyLibrary
+TO-92L_Inline_Wide
+TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)
+TO-92L Inline Wide transistor
+0
+3
+3
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
